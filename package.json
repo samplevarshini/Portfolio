@@ -1,5 +1,5 @@
 {
-  "homepage":"http://samplevarshini.github.io/Sample",
+  "homepage": "http://samplevarshini.github.io/Portfolio",
   "name": "sample",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-page -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-page -d build"
   },
   "dependencies": {
     "@rollup/plugin-replace": "^5.0.2",
